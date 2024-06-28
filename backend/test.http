@@ -1,0 +1,2 @@
+### Get User Profile
+GET http://localhost:3000/api/v1/users/profile/?email=demo@hva.nl

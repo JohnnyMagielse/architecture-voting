@@ -1,0 +1,21 @@
+{
+  "name": "evoting-contract",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha --recursive",
+    "start": "fabric-chaincode-node start"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "fabric-contract-api": "^2.5.6",
+    "fabric-shim": "^2.5.6"
+  },
+  "devDependencies": {
+    "mocha": "^10.4.0",
+    "nyc": "^17.0.0",
+    "sinon": "^18.0.0"
+  }
+}
